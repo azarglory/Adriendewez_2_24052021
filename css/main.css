@@ -1,0 +1,36 @@
+main{
+    height: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+/* Champ de recherche*/
+
+.recherche_saisie{
+    display: flex;
+    margin-top: 15px;
+    height: 30px;
+}
+
+.map_marker{
+    display: flex;
+    width: 25px;
+    background-color: #f2f2f2;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 0 0 8px;
+}
+
+.search{
+    border: 1px solid #f2f2f2;
+
+}
+
+.search_button{
+    background-color: #0065FC;
+    border: none;
+    color: #f2f2f2;
+    width: 90px;
+    border-radius: 0 8px 8px 0;
+}
