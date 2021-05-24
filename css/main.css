@@ -10,12 +10,12 @@ main{
 .recherche_saisie{
     display: flex;
     margin-top: 15px;
-    height: 30px;
+    height: 35px;
 }
 
 .map_marker{
     display: flex;
-    width: 25px;
+    width: 35px;
     background-color: #f2f2f2;
     align-items: center;
     justify-content: center;
@@ -34,3 +34,27 @@ main{
     width: 90px;
     border-radius: 0 8px 8px 0;
 }
+
+/* Filtres */
+
+.filter{
+    margin-top: 15px;
+}
+
+.filter ul{
+    display: flex;
+}
+
+.filter li{
+    margin-left: 15px;
+    list-style: none;
+    font-weight: bold;
+    border: 3px solid #f2f2f2;
+}
+
+.filter i{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 50%;
+}
+
