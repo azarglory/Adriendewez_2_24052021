@@ -1,0 +1,15 @@
+html{
+	width: 1140px;
+	margin: auto;
+	font-family: Raleway, arial;
+}
+
+img{
+	max-width: 350px;
+}
+
+@font-face {
+	font-family: Raleway;
+	src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+

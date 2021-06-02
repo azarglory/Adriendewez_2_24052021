@@ -13,6 +13,7 @@
     </head>
 
     <body>
+        <!--Header / Menu-->
         <header>
             <a href=""><img src="images/logo/Reservia.svg" alt=""></a>
             <nav>
@@ -23,16 +24,19 @@
                 </ul>
             </nav>
         </header>
-
+        <!--Header / Menu-->
         <main>
+            <!--Search Module-->
             <div class="search">
-                <h2>Trouvez votre Hébergements pour des vacances de rêve</h2>
+                <h1>Trouvez votre Hébergements pour des vacances de rêve</h1>
                 <p>En plain centre ville ou en pleine nature</p>
-                <div class="search_base">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <input type="text" name="search_form" id="search_form" value=" Marseille, France" >
+                <form class="form_base" method="get" action="#">
+                        <div class="form_icon"> 
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <input type="search" name="form_search" id="form_search" value=" Marseille, France" >
                         <button class="search_button">Rechercher</button>
-                </div>
+                </form>
 
                 <div class="filter_base">
                     <h2>Filtres</h2>
@@ -40,29 +44,36 @@
                     
                     <div class="filter_module">
                         <div class="filter_module_icon"><i class="fas fa-money-bill-wave"></i></div>
-                        <span>Économique</span>
+                        <span class="filter_module_title">Économique</span>
                     </div>
                     
                     <div class="filter_module">
                         <div class="filter_module_icon"><i class="fas fa-child"></i></div>
-                       <span>Familial</span>
+                       <span class="filter_module_title">Familial</span>
                     </div>
 
                     <div class="filter_module">
                         <div class="filter_module_icon"><i class="fas fa-heart"></i></div>
-                        <span>Romantique</span>
+                        <span class="filter_module_title">Romantique</span>
                     </div>
 
                     <div class="filter_module">
                         <div class="filter_module_icon"><i class="fas fa-dog"></i></div>
-                        <span>Animaux autorisés</span>
+                        <span class="filter_module_title">Animaux autorisés</span>
                     </div>
                 </div>
-
-                <i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville
-
+                <div class="info">
+                    <div class="info_icon">
+                        <i class="fas fa-info"></i>
+                     </div>
+                    <span class="info_text">
+                        Plus de 500 logements sont disponibles dans cette ville
+                    </span>
+                </div>
             </div>
+            <!--Search module-->
 
+            <!--Hebergement-->
             <section class="hebergement">
                 <h2>Hébergement à Marseille</h2>
                 <article class="hebergement_marseille"> 
@@ -179,7 +190,9 @@
                     </div>
                 </aside>
             </section>
+            <!--Hebergement-->
 
+            <!--Activity-->
             <section class="activity">
                 <h2>Activités à Marseille</h2>
                 <article class="activity_vignette">
@@ -211,9 +224,11 @@
                     </div>
                 </article>
             </section>
+            <!--Activity-->
         </main>
 
         <footer>
+            <!--Footer-->
             <div>
                 <h3>A propos</h3>
                 <ul>
@@ -250,6 +265,7 @@
                     </li>
                 </ul>
             </div>
+            <!--Footer-->
         </footer>
     </body>
 </html>

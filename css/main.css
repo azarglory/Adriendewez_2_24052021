@@ -1,0 +1,130 @@
+/* Search */
+
+.search h1{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.search p{
+    margin-top: -10px;
+}
+
+.form_base{
+    display: flex;
+}
+
+.form_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 50px;
+    width: 50px;
+    border-radius: 1rem 0 0 1rem;
+}
+
+#form_search{
+    font-weight: 600;
+    border: 2px solid #f2f2f2;
+    padding: 0 1.5rem;
+}
+
+.search_button{
+    background-color: #0065fc;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+    color: #f2f2f2;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    cursor: pointer;
+}
+
+/* Search */
+
+/* Filter */
+
+.filter_base{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.filter_base h2 {
+    height: 3rem;
+    margin-right: 2rem;
+}
+
+.filter_module{
+    display: flex;
+    border: 2px solid #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.filter_module_icon{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    min-height: 3.5rem;
+    min-width: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    margin-left: -2px;
+    color: #0065fc;
+}
+
+.filter_module_title{
+    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+    font-weight: 900;
+}
+
+/* Filter */
+
+/* Info */
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.info_icon i{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #f2f2f2;
+    border-radius: 100%;
+    color: #0065fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+/* Info */
+
+/* Hébergement */
+
+.hebergement_marseille{
+    background-color: #f2f2f2;
+    border-radius: 2rem;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hebergement_vignette{
+    width: 20%;
+    margin: 2rem;
+}
+
+.hebergement_vignette img{
+    width: 100%;
+    height: 7rem;
+    object-fit: cover;
+    position: relative;
+}
