@@ -109,80 +109,104 @@
 
 /* Hebergement */
 
-.hebergement{
+.hosting{
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 /* Hébergement Marseille*/
 
-.hebergement_marseille{
+.host_marseille{
     background-color: #f2f2f2;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     width: 65%;
 }
 
-.hebergement_marseille h2{
-    padding-top: 2rem;
-    padding-left:2rem;
+.host_marseille h2{
+    margin: 2rem 0 0 2rem;
 }
 
-.article_hebergement{
+.host_marseille a{
+    text-decoration: none;
+    color: black;
+}
+
+.article_host{
     display: flex;
     flex-wrap: wrap;
-}
-
-.hebergement_vignette{
-    width: 20%;
+    width: 100%;
     margin: 2rem;
 }
 
-.hebergement_vignette img{
+.thumbnail_host{
+    width: 25%;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+}
+
+.thumbnail_host_image{
     width: 100%;
-    height: 7rem;
-    object-fit: cover;
+    margin: 0;
     position: relative;
 }
 
-.show{
-    padding-left: 2rem;
-    padding-bottom: 2rem;
+.thumbnail_host_image img {
+    width: 100%;
+    height: 7rem;
+    object-fit:cover;
+    border-radius: 1.5rem;
 }
 
-/* Populaire */
-
-.popular{
-    background-color: #f2f2f2;
-    border-radius: 2rem;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.popular_title{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.thumbnail_host_image figcaption{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    font-size: 13px;
+    width: 100%;
+    padding-left: 0.2rem;
+    height: 1.2rem;
     font-weight: 700;
 }
 
-.popular_vignette{
-    width: 95%;
-    height: 7rem;
-    margin-bottom: 2rem;
-    background-color: white;
-    display: flex;
-    font-size: 0.5rem;
+.thumbnail_host_legend{
+    padding-left: 0.2rem;
+    font-size: 13px;
 }
 
-.popular_vignette img{
-    width: 100%; 
-    height: 100%;
+/* Notation */
+
+.fa-star {
+	color: #f2f2f2;
+	cursor: pointer;
+	padding: 0.0625rem;
 }
 
-.popular_description{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.fa-star.checked {
+	color: #0065fc;
+}
+
+.rating {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.stars {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.stars:hover .fa-star {
+    color: #0065fc;
+}
+
+.stars .fa-star:hover ~ .fa-star {
+    color: #f2f2f2;
 }
