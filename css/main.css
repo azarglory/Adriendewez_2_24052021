@@ -138,6 +138,7 @@
     flex-wrap: wrap;
     width: 100%;
     margin: 2rem;
+    cursor: pointer;
 }
 
 .thumbnail_host{
@@ -177,6 +178,82 @@
 .thumbnail_host_legend{
     padding-left: 0.2rem;
     font-size: 13px;
+}
+
+/* Populaire */
+
+.popular{
+    background-color: #f2f2f2;
+    width: 30%;
+    border-radius: 1.5rem;
+}
+
+.popular_title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem
+}
+
+.thumbnail_popular{
+    background-color: white;
+    width: 90%;
+    height: 7rem;
+    border-radius: 1.5rem;
+    margin: auto;
+    padding: 0.5rem;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.thumbnail_popular_image{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail_popular_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+
+.thumbnail-popular_legend{
+display: flex;
+flex-direction: column;
+}
+
+.thumbnail-popular_legend h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 0 1rem 0.5rem 1rem;
+}
+
+.thumbnail-popular_legend p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0.5rem 0.1rem 0.5rem 1rem;
+}
+
+.thumbnail-popular_legend .vide{
+    flex: 1;
+}
+
+.thumbnail-popular_legend .rating_popular{
+    margin: 0 1rem 0.5rem 1rem;
+    
 }
 
 /* Notation */
