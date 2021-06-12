@@ -313,7 +313,7 @@
 
 .activity{
     margin-top: 2rem;
-    
+    background-color: aqua;
 }
 
 .activity_title{
@@ -336,6 +336,14 @@
       "activity_grid_1 activity_grid_3 activity_grid_4 activity_grid_6"; 
     align-content: stretch; 
     align-items: stretch; 
+}
+
+.activity_grid{
+    height: 100%;
+    width: 100%;
+    border-radius: 1.5rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .activity_grid_1{
@@ -382,16 +390,16 @@
     height: 100%;
     object-fit: cover;
     position: absolute;
-
-}
-
-.activity_grid{
-    height: 100%;
-    width: 100%;
-    border-radius: 1.5rem;
-
 }
 
 .activity_legend{
     text-align: center;
+    border-radius: 0 0 1.5rem 1.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    height: 2rem;
 }

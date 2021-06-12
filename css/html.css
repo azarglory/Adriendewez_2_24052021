@@ -1,11 +1,17 @@
 html{
+	font-family: Raleway, arial;
+	margin:0;
+}
+
+body{
+	margin: 0;
+}
+
+main, header{
 	padding-left: 10vw;
 	padding-right: 10vw;
 	margin: auto;
-	font-family: Raleway, arial;
 }
-
-
 
 @font-face {
 	font-family: Raleway;
