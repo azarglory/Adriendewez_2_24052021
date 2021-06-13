@@ -251,20 +251,12 @@
 .thumbnail-popular_legend h3{
     display: block;
     font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
     margin: 0 1rem 0.5rem 1rem;
 }
 
 .thumbnail-popular_legend p{
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     margin: 0.5rem 0.1rem 0.5rem 1rem;
 }
 
