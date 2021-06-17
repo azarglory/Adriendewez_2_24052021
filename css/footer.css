@@ -13,7 +13,6 @@ footer{
 .footer{
     margin: 2rem;
     display: flex;
-    background-color: aqua;
     width: 100%;
     justify-content: space-around;
 }
