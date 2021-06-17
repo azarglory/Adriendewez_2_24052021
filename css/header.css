@@ -1,6 +1,7 @@
 /* -- Header -- */
 
 header{
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,8 +21,10 @@ header li a{
     color: black;
 }
 
-header li a:hover{
+header li .main_link:hover{
     color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 2.8rem;
 }
 
 .sub{

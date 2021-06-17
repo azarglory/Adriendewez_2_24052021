@@ -151,6 +151,7 @@
     position: relative;
     padding: 0.5rem;
     border-radius: 1.5rem;
+    box-shadow: 0px 0px 20px #f2f2f2;
 }
 
 .thumbnail_host_image{
@@ -225,6 +226,7 @@
     display: flex;
     cursor: pointer;
     margin-bottom: 2rem;
+    box-shadow: 0px 0px 20px #f2f2f2;
 }
 
 .thumbnail_popular_image{
@@ -305,11 +307,16 @@
 
 .activity{
     margin-top: 2rem;
-    background-color: aqua;
 }
 
+.activity a{
+    text-decoration: none;
+    color: black;
+}
+
+
 .activity_title{
-    margin: 2rem 2rem;
+    margin: 3rem 2rem;
     font-weight: bold;
 }
 
@@ -336,36 +343,30 @@
     border-radius: 1.5rem;
     position: relative;
     overflow: hidden;
+    box-shadow: 0px 0px 20px #f2f2f2;
 }
 
 .activity_grid_1{
      grid-area: activity_grid_1;
-     background-color: #0065fc;
 }
 
 .activity_grid_2{
-    background-color: aqua;
-
     grid-area: activity_grid_2;
 }
 
 .activity_grid_3{
-    background-color: blueviolet;
      grid-area: activity_grid_3;
 }
 
 .activity_grid_4{
-    background-color: brown;
      grid-area: activity_grid_4; 
 }
 
 .activity_grid_5{
-    background-color: cadetblue;
      grid-area: activity_grid_5; 
 }
 
 .activity_grid_6{
-    background-color: bisque;
      grid-area: activity_grid_6; 
 }
 
@@ -394,4 +395,5 @@
     width: 100%;
     margin: 0;
     height: 2rem;
+    padding: 0.3rem 0;
 }
