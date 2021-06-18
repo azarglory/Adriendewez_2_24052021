@@ -325,7 +325,7 @@
     grid-auto-columns: 1fr; 
     grid-auto-rows: 1fr; 
     grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 14rem 2rem 2rem 2rem 14rem; 
+    grid-template-rows: 10rem 2rem 2rem 2rem 10rem; 
     gap: 3rem 3rem; 
     grid-template-areas: 
       "activity_grid_1 activity_grid_2 activity_grid_4 activity_grid_5"
@@ -371,29 +371,29 @@
 }
 
 .activity_image_container{
-    position: relative;
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 .activity_image_container img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: absolute;
+    border-radius: 0 0 1.9rem 1.9rem;
 }
 
 .activity_legend{
     text-align: center;
     border-radius: 0 0 1.5rem 1.5rem;
-    position: absolute;
     bottom: 0;
-    left: 0;
     background-color: white;
     width: 100%;
     margin: 0;
     height: 2rem;
-    padding: 0.3rem 0;
+    padding-top: 1rem;
+    font-size: 15px;
+    position: absolute;
 }
