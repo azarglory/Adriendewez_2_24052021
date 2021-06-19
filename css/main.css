@@ -43,8 +43,6 @@
     display: none;
 }
 
-/* Search */
-
 /* Filter */
 
 .filter_base{
@@ -86,6 +84,11 @@
     padding-left: 0.5rem;
     padding-right: 1.5rem;
     font-weight: 900;
+}
+
+.filter_global{
+    display: flex;
+    margin-bottom: 2em;
 }
 
 /* Filter */

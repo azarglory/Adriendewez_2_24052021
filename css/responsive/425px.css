@@ -6,6 +6,10 @@ main{
 }
 
 /* Search */
+.search{
+    margin-left: 1em;
+    margin-right: 1em;
+}
 
 .search_text{
     display: none;
@@ -17,9 +21,15 @@ main{
 
 #form_search{
     width: 50%;
-    font-size: 0.7em;
+    font-size: 0.6em;
 }
 
+.info{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9em;
+    flex-wrap: nowrap;
+}
 /* Populaire */
 
 .host_marseille{
