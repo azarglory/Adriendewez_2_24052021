@@ -1,0 +1,15 @@
+/* Général */
+
+/* Populaire */
+
+.popular{
+    border-radius: 0;
+}
+
+.popular h3{
+    width: 100%;
+}
+
+.popular_title{
+    font-size: 12px;
+}

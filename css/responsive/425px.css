@@ -1,7 +1,61 @@
+/* Base */
+
+main{
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Search */
+
 .search_text{
     display: none;
 }
 
 .search_wen{
     display: contents;
+}
+
+/* Populaire */
+
+.host_marseille{
+    background-color: white;
+}
+
+.host_marseille h2{
+    font-size: 20px;
+}
+
+.article_host{
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
+    margin: 0;
+    margin-bottom: 3em;
+
+}
+
+.thumbnail_host{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.show_more{
+    font-size: 0.9em;
+}
+
+/* Activités */
+
+.activity{
+    width: 100%;
+}
+
+.activity_container {
+    display: flex;
+}
+
+.activity_grid{
+    max-height: auto;
+    align-content: stretch; 
+    align-items: stretch; 
+    height: 10em;
 }
