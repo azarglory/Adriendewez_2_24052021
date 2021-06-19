@@ -143,13 +143,12 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin: 5%;
     cursor: pointer;
+    justify-content: space-around;
 }
 
 .thumbnail_host{
     width: 25%;
-    margin-right: 2rem;
     margin-bottom: 2rem;
     background-color: white;
     position: relative;
@@ -188,13 +187,11 @@
 }
 
 .show_more{
-    position: absolute;
-    bottom: 30px;
-    left: 5%;
+    padding-left: 2em;
 }
 
 .show_more a{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 

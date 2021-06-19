@@ -21,3 +21,8 @@
 .popular_title .fas{
     padding-left: 2rem;
 }
+
+.show_more a{
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}

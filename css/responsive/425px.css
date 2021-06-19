@@ -15,33 +15,41 @@ main{
     display: contents;
 }
 
+#form_search{
+    width: 50%;
+    font-size: 0.7em;
+}
+
 /* Populaire */
 
 .host_marseille{
     background-color: white;
+    position: relative;
 }
 
 .host_marseille h2{
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 2em;
 }
 
 .article_host{
     display: flex;
     flex-direction: column;
-    max-width: 95%;
-    margin: 0;
     margin-bottom: 3em;
-
+    margin: 0;
 }
 
 .thumbnail_host{
-    width: 100%;
+    width: 96vw;
     margin-bottom: 1em;
+    padding: 0;
+    margin: 0 auto 2em auto;
 }
 
-.show_more{
-    font-size: 0.9em;
+.show_more a{
+    font-size: 1em;
 }
+
 
 /* Activités */
 
@@ -58,4 +66,27 @@ main{
     align-content: stretch; 
     align-items: stretch; 
     height: 10em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.activity_legend{
+    text-align: left;
+    padding-left: 1em;
+    font-weight: bold;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_menu h3{
+    font-size: 0.9em;
+}
+
+.footer_menu a{
+    font-size: 0.8em;
 }
