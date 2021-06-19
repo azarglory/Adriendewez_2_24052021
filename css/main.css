@@ -39,6 +39,10 @@
     cursor: pointer;
 }
 
+.search_wen{
+    display: none;
+}
+
 /* Search */
 
 /* Filter */
@@ -211,9 +215,9 @@
     margin-bottom: 3rem;
 }
 
-.popular_title h3{
+.popular_title h2{
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 .thumbnail_popular{
@@ -248,18 +252,20 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+
 }
 
 .thumbnail-popular_legend h3{
     display: block;
-    font-size: 1.17em;
     font-weight: bold;
     margin: 0 1rem 0.5rem 1rem;
+    font-size: 1em;
 }
 
 .thumbnail-popular_legend p{
     display: block;
     margin: 0.5rem 0.1rem 0.5rem 1rem;
+    font-size: 0.9em;
 }
 
 .thumbnail-popular_legend .vide{
