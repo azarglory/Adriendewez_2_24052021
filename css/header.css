@@ -1,33 +1,67 @@
 /* -- Header -- */
 
-header{
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-between;
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-rows: 5.3em;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 2em 2em;
+    grid-auto-flow: row;
+    align-content: stretch;
     align-items: center;
+    grid-template-areas:
+      "haeder_logo header_vide header_nav header_sub";
 }
 
-header ul{
-    display: flex;
-}
-
-header li{
-    margin-left: 2em;
-    list-style:  none;
-}
-
-header li a{
+header a{
     text-decoration: none;
     color: black;
 }
+/* Logo */
+.header_logo { 
+    grid-area: haeder_logo; 
+}
 
-header li .main_link:hover{
+.header_logo img{
+    height: 3em;
+}
+
+/* Vide */
+
+.header_vide { 
+    grid-area: header_vide;
+}
+
+/* Nav */
+
+.header_nav { 
+    grid-area: header_nav;
+    display: flex;
+    align-items: center;
+}
+
+.header_nav a{
+    text-align: center;
+    padding: 2em;
+    font-weight: 400 ;
+
+}
+
+.header_nav a:hover{
+    border-top: 4px solid #0065FC;
     color: #0065FC;
-    border-top: 2px solid #0065FC;
-    padding-top: 2.8rem;
+}
+
+/* Sub */
+
+.header_sub {
+    grid-area: header_sub; 
 }
 
 .sub{
     color: #0065FC;
-    font-weight: 700;
+    font-weight: 600;
 }
+  
+
