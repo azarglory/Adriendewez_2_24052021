@@ -156,4 +156,9 @@ text-align: right;
     border-top: none;
     border-bottom: 3px solid #0065FC;
 }
-  
+
+.header_nav_active{
+    border-top: none;
+    color: #0065FC;
+    border-bottom: 3px solid #0065FC;
+}
