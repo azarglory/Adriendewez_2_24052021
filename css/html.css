@@ -20,11 +20,17 @@ h3{
 	font-family: "Raleway bold";
 }
 
+.filter_module_title{
+	font-family: "Raleway bold";
+}
+
 main, header{
 	padding-left: 10vw;
 	padding-right: 10vw;
 	margin: auto;
 }
+
+/* Font */
 
 @font-face {
 	font-family: Raleway;

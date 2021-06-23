@@ -53,6 +53,11 @@ header a{
     color: #0065FC;
 }
 
+.header_nav_active{
+    border-top: 4px solid #0065FC;
+    color: #0065FC;
+}
+
 /* Sub */
 
 .header_sub {
