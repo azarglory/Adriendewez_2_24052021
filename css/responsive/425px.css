@@ -76,7 +76,6 @@ header{
 }
 
 .activity_grid{
-    max-height: auto;
     align-content: stretch; 
     align-items: stretch; 
     height: 10em;
