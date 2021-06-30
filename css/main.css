@@ -67,6 +67,11 @@
     cursor: pointer;
 }
 
+.filter_module:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
 .filter_module_icon{
     display: flex;
     width: 3rem;
@@ -161,6 +166,11 @@
     box-shadow: 0px 0px 20px #f2f2f2;
 }
 
+.thumbnail_host:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
 .thumbnail_host_image{
     width: 100%;
     margin: 0;
@@ -232,6 +242,11 @@
     cursor: pointer;
     margin-bottom: 2rem;
     box-shadow: 0px 0px 20px #f2f2f2;
+}
+
+.thumbnail_popular:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
 }
 
 .thumbnail_popular_image{
@@ -357,6 +372,11 @@
     position: relative;
     overflow: hidden;
     box-shadow: 0px 0px 20px #f2f2f2;
+}
+
+.activity_grid:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
 }
 
 .activity_grid_1{
