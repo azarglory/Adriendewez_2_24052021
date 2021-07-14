@@ -62,6 +62,16 @@
         overflow: hidden;
         box-shadow: 0px 0px 20px #f2f2f2;
     }
+
+    .activity{
+        margin-bottom: -7rem;
+    }
+}
+
+@media screen and (max-width: 1238px) {
+    .footer_margin{
+        margin-right: 10rem;
+    }
 }
 
 @media screen and (max-width: 1038px) {
@@ -120,6 +130,15 @@
   
 }
 
+@media screen and (max-width: 973px) {
+    .activity{
+        margin-bottom: 5rem;
+    }
+    .activity a{
+        margin: 0 0 0 0 ;
+    }
+}
+
 @media screen and (max-width: 838px) {
     .thumbnail_host{
         min-width: 15rem;
@@ -155,9 +174,6 @@
     .activity_legend{
         font-size: 0.8em;
     }
-}
-
-@media screen and (max-width: 760px) {
 }
 
 @media screen and (max-width: 713px){
@@ -300,8 +316,14 @@
     .footer_menu a{
         font-size: 0.8em;
     }
-    
+    .space_footer{
+        margin: 0 1rem 0 1rem;
+    }
 
+    /* Activity */
+    .activity a{
+        margin: 0 1rem 0 1rem;
+    }
 }
 
 @media screen and (max-width: 425px) {
