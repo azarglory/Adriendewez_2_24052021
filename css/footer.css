@@ -14,13 +14,17 @@ footer{
     margin: 2rem;
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content:  flex-start;
 }
 
 .footer_menu{
     display: flex;
     flex-direction: column;
     padding-bottom: 2rem;
+}
+
+.footer_margin{
+    margin-right: 10rem;
 }
 
 .footer_menu a{
