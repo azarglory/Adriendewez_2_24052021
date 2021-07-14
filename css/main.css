@@ -149,6 +149,7 @@
 }
 
 .article_host{
+    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
